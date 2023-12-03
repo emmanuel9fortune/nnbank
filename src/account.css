@@ -1,0 +1,27 @@
+.account{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/premium-photo/texture-paper-white-background-half-two-colors-with-navy-blue-arrow-macro-structure-dense-craft-cardboard_113767-6312.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+}
+
+.regg1{
+    text-decoration: none;
+}
+
+.regg1>p{
+    width: fit-content;
+    padding: 10px;
+    border: 2px solid purple;
+    color: purple;
+    border-radius: 999px;
+}
+
+.regg1>p:hover{
+    background-color: purple;
+    color: white;
+}

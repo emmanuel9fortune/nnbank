@@ -1,0 +1,71 @@
+.cardbod{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4em;
+}
+
+.crdd{
+    width: 300px;
+}
+
+.cardbod_head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 2em;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.request{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reqq1{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.reqq2{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.fstlet{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fstlet>input{
+    border: none;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    outline-width: 0;
+    font-size: 15px;
+    max-zoom: 1;
+    background-color: transparent;
+}
+
+.rbtn{
+    margin-top: 2em;
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+}

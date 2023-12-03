@@ -1,0 +1,168 @@
+.rightbar{
+    width: 30%;
+    height: 100vh;
+    border-left: 2px solid white;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    border-left: 2px solid ghostwhite;
+}
+
+.rightbar::-webkit-scrollbar{
+    display: none;
+}
+
+.trup{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-weight: 700;
+    color: #8884d8;
+}
+
+.trdo{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-weight: 700;
+    color: orange;
+}
+
+.inc{
+    width: 70%;
+    margin-top: 1em;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 4px 14px -3px #8884d8;
+    border-radius: 10px;
+}
+
+.inc>p{
+    font-weight: 800;
+}
+
+.otc>p{
+    font-weight: 800;
+}
+
+.otc{
+    width: 70%;
+    margin-top: 1em;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 2px 4px 14px -3px orange;
+    border-radius: 10px;
+}
+
+.dashloan{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+    background-color: white;
+    box-shadow: 2px 4px 14px -3px grey;
+}
+
+.dashloan>h3, .dashloan>p{
+    width: 100%;
+    text-align: center;
+}
+
+.dash_writes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dash_writes>p{
+    width: 50%;
+    font-size: 15px;
+}
+
+.aploan{
+    margin-top: 1em;
+    margin-bottom: 4em;
+    text-decoration: none;
+    border: 2px solid #8884d8;
+    color: #8884d8;
+    padding: 10px;
+    border-radius: 999px;
+}
+
+.trnd{
+    display: flex;
+    align-items: center;
+    background-color: #3e3c61;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.trnu{
+    display: flex;
+    align-items: center;
+    background-color: ghostwhite;
+    color: #3e3c61;
+    padding: 5px;
+    box-shadow: 2px 4px 14px -3px grey;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.trnu>p, .trnd>p{
+    padding: 10px;
+}
+
+.trnds{
+    width: 100%;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px){
+    .rightbar{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 900px){
+    .inc{
+        width: 90%;
+        margin-top: 1em;
+        background-color: white;
+        padding: 10px;
+        box-shadow: 2px 4px 14px -3px #8884d8;
+        border-radius: 10px;
+    }
+    
+    .otc{
+        width: 90%;
+        margin-top: 1em;
+        padding: 10px;
+        background-color: white;
+        box-shadow: 2px 4px 14px -3px orange;
+        border-radius: 10px;
+    } 
+
+    .dash_writes>p{
+        width: 90%;
+        font-size: 12px;
+    }
+
+}

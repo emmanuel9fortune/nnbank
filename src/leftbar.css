@@ -1,0 +1,141 @@
+.leftbar{
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-right: 2px solid white;
+    background-image: url('https://img.freepik.com/free-vector/organic-white-backgroun_1199-324.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leftbar_header{
+    display: flex;
+    align-items: center;
+}
+
+.logovt2{
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.logovt2>img{
+    width: 8em;
+    height: 6em;
+    border-radius: 10px;
+}
+
+.p_link{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    justify-content : center;
+    color: #3e3c61;
+}
+
+.p_link>p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.sidebar_links{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-items: center;
+}
+
+.slink{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    padding-top: 1em;
+    color: #3e3c61;
+    width: 100%;
+}
+
+.cll{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    padding-top: 1em;
+    color: white;
+    width: 100%;
+    background-color: #3e3c61;
+    border-left: 1em solid white;
+    font-size: 12px;
+}
+
+.slink>p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.cll>p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.slink:hover{
+    background-color: transparent ;
+    color: grey;
+}
+
+.logod{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+}
+
+.logod>img{
+    width: 4em;
+    height: 4em;
+}
+
+.logout{
+    display: flex ;
+    cursor: pointer ;
+    margin: 20px;
+    font-size: 12px;
+    align-items: center;
+    color: #3e3c61;
+    font-weight: 800;
+}
+
+#av{
+    background-color: transparent;
+    color: #3e3c61;
+}
+
+.logoi{
+    display: flex;
+    background-color: white;
+    align-items: center;
+}
+
+.logoi>img{
+    width: 3em;
+    height: 3em;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px){
+    .leftbar{
+        display: none;
+    }
+}

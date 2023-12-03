@@ -1,0 +1,169 @@
+.transact{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-top: 1em;
+}
+
+.transact::-webkit-scrollbar{
+    display: none;
+}
+
+.transact>h3{
+    width: 100%;
+    padding: 2em;
+    font-weight: 600;
+}
+
+.transact_list{
+    width: 70%; 
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px 4px 14px -3px grey;
+    color: black;
+}
+
+.trslpp{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex{
+    position: relative;
+}
+
+.transact_det{
+    display: flex;
+    align-items: center;
+}
+
+.transact_det>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.transact_info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.transact_info>p{
+    font-weight: 800;
+}
+
+.transact_info>span{
+    width: 100%;
+    word-wrap:break-word;
+}
+
+.flexed{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.transact_list{
+    position: relative;
+}
+
+.tim{
+    font-size: 9px;
+    position: absolute;
+    bottom: 0.5em;
+    right: 1em;
+}
+
+.tim1{
+    font-weight: 600;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.flex>p{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.flex>small{
+    font-weight: 700;
+}
+
+.accnum{
+    font-size: 15px;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.tram{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.trsh{
+    width: 100%;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trsh>p{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.boxtr{
+    width: 3em;
+    height: 3em;
+}
+
+
+
+
+@media only screen and (max-width: 900px){
+    .boxtr{
+        width: 2.5em;
+        height: 2.5em;
+    }
+    .transact{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        overflow-y: scroll;
+    }
+    .transact_info>span{
+        font-size: 12px;
+    }
+    .transact_info>p{
+        font-size: 12px;
+    }
+    .transact_list{
+        position: relative;
+        width: 95%;
+    }
+    .tim{
+        font-size: 9px;
+        position: absolute;
+        bottom: 0.5em;
+        right: 0.5em;
+    }
+}

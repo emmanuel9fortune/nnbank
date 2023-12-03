@@ -1,0 +1,26 @@
+.secacc{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 14px -3px grey;
+}
+
+.fstacc_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acc_writes, .accr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accr1{
+    display: flex;
+    align-items: center;
+}

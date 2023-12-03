@@ -1,0 +1,86 @@
+.banned{
+    width: 60%;
+    height: 400px;
+    margin-top:2em ;
+    margin-bottom:2em ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 4px 14px -3px skyblue;
+    border-radius: 10px;
+}
+
+.banned>h3{
+    font-size: 30px;
+    color: brown;
+}
+
+.bannedbod{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.418);
+    height: 100%;
+}
+ 
+.bannedbod>small{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 90%;
+}
+
+.bannedbod>h3{
+    width: 100%;
+    text-align: center;
+    color: brown;
+    background-color: gold;
+    padding: 10px;
+}
+
+.bannd{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannd>p{
+    font-weight: 600;
+    width: 80%;
+    color: brown;
+    margin-left: 10px;
+}
+
+#warn{
+    height: 3em;
+    width: 3em;
+    color: gold;
+}
+
+
+@media only screen and (max-width: 800px){
+    .banned>h3{
+        font-size: 20px;
+        color: brown;
+    }
+    .bannd{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banned{
+        width: 100%;
+        height: 400px;
+        margin-top:2em ;
+        margin-bottom:2em ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 2px 4px 14px -3px skyblue;
+        border-radius: 10px;
+    }
+}

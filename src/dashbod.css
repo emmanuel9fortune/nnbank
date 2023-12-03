@@ -1,0 +1,874 @@
+.dashboard{
+    width: 100%;
+    background-color: ghostwhite;
+    height: 97vh;
+    color: black;
+}
+
+
+.dashboard2{
+    width: 100%;
+    background-color: #000013;
+    height: 97vh;
+    color: white;
+}
+
+.dashbod{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+    padding-bottom: 12em;
+    height: 92vh;
+}
+
+.trnslp{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    overflow-y: scroll;
+}
+
+.dashboard2::-webkit-scrollbar{
+    display: none;
+}
+
+.ballbox{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bsb{
+    width: 100%;
+    display: flex;
+}
+
+.babox{
+    background-image: url('https://img.freepik.com/premium-vector/finance-business-background-bar-chart-candlestick-chart-show-stock-market-trading-price_120819-1855.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    display: flex;
+    height: 170px;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding-bottom: 1em;
+    align-items: center;
+    box-shadow: 2px 4px 14px -3px cadetblue;
+}
+
+.babox1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.link_boxes{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.box1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 1em;
+    color: grey;
+}
+
+.minbox{
+    color: white;
+    padding: 1em;
+    width: 80%;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+}
+.minbox1{
+    color: black;
+    padding: 1em;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.dbbox{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 4px 14px -3px grey;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.dbhd{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dbhd1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 2px solid skyblue;
+    padding: 10px;
+    color: skyblue;
+    font-weight: 700;
+}
+
+.dbhd2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.acbod2{
+    width: 100%;
+    background-color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.acbod2::-webkit-scrollbar{
+    display: none;
+}
+
+.acbod2>p{
+    width: 100%;
+    color: grey;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.acbod>p{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.acbod{
+    width: 100%;
+    background-color: transparent;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.acbod::-webkit-scrollbar{
+    display: none;
+}
+
+.bottom1{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.bottom2{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.bottomlnk{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.bottomlnk2{
+    display: flex;
+    justify-content: center;
+    color: lawngreen;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.piec1{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.piec1>small{
+    font-size: 10px;
+}
+
+.percnt{
+    width: 80%;
+    background-color: white;
+    border-radius: 999px;
+}
+
+.link_boxes{
+    margin-top: 1em;
+}
+
+.cd{
+    width: 60%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.575);
+}
+
+#avvtt{
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.transact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.transaction_head{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid grey;
+}
+
+.viewall{
+    text-decoration: none;
+    font-weight: 800;
+    color: green;
+    display: flex;
+    align-items: center;
+}
+
+.forus{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.forus>h3{
+    width: 80%;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: .5em;
+}
+
+.forus>p{
+    width: 80%;
+    margin-bottom: 1em;
+}
+
+.forusbod{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foruslink{
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.fr11{
+    background-color: gold;
+    font-weight: 700;
+    font-size: 35px;
+    color: black;
+}
+
+.fr11>p{
+    width: 80%;
+}
+
+.fr113>p{
+    width: 80%;
+}
+
+.fr112{
+    background-color: white;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+
+.fr113{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.babox>small{
+    display: flex;
+    align-items: center;
+}
+
+.flaggg{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.betbod{
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:2em;
+    justify-content:center;
+}
+
+.betbod>select, .betbod>input{
+    width:90%;
+    padding:10px;
+    background-color:transparent;
+    color:cadetblue;
+    border:2px solid cadetblue;
+    border-radius:999px;
+    outline-width:0;
+    max-zoom:1;
+}
+
+.betbod>p{
+    margin-top:1em;
+    width:90%;
+    font-size:12px;
+    font-weight:700;
+}
+
+.betamt{
+    display:flex;
+    width:90%;
+    justify-content:space-between;
+    font-size:12px;
+    font-weight:700;
+    margin-top:1em;
+}
+
+.betbod>button{
+    margin-top:2em;
+    width:80px;
+    padding:10px;
+    background-color:#3e3c61;
+    color:white;
+    border:none;
+    border-radius:999px;
+}
+
+.srchgift{
+    width:80%;
+    margin-top:1em;
+    margin-bottom:1em;
+    padding:10px;
+    outline-width:0;
+    max-zoom:1;
+    border:2px solid cadetblue;
+    border-radius:999px;
+    color:skyblue;
+    background-color:transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px){
+    .foruslink{
+        width: 95%;
+        height: 300px;
+        border-radius: 5px;
+        background-color: white;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+    .fr11{
+        background-color: gold;
+        font-weight: 700;
+        font-size: 35px;
+        color: black;
+    }
+    
+    .fr11>p{
+        width: 80%;
+    }
+    
+    .fr113>p{
+        width: 80%;
+    }
+    
+    .fr112{
+        background-color: white;
+        font-weight: 700;
+        font-size: 20px;
+        color: black;
+    }
+    
+    .fr113{
+        background-color: black;
+        border: 1px solid white;
+        color: white;
+        font-weight: 800;
+        font-size: 35px;
+    }
+    .forusbod{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    
+    .bottomlnk>p{
+        font-size: 9px;
+    }
+    .bottomlnk{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottomlnk2>p{
+        font-size: 9px;
+    }
+    .bottomlnk2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cd{
+        width: 95%;
+    }
+    .dashbod{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: .5em;
+        padding-top: 2em;
+        padding-bottom: 0;
+    }
+
+    .babox{
+        background-image: url('https://img.freepik.com/premium-vector/finance-business-background-bar-chart-candlestick-chart-show-stock-market-trading-price_120819-1855.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        display: flex;
+        height: 170px;
+        color: white;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+
+    .babox1>small{
+        font-size: 12px;
+    }
+
+    .box1>small{
+        font-size: 12px;
+    }
+    
+    .ballbox{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .dbbox{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+    }
+
+    .dbhd{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .acbod2{
+        width: 100%;
+        background-color: white;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: scroll;
+    }
+
+    .acbod2::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .acbod2>p{
+        width: 100%;
+        color: grey;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    .acbod>p{
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    .acbod{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.267);
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: scroll;
+    }
+
+    .acbod::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .bottomlnk{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        color: grey;
+        text-decoration: none;
+    }
+
+    .minbox{
+        color: white;
+        padding: 10px;
+        width: 70%;
+    }
+
+    .dbbox{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+        box-shadow: none;
+        border-radius: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 300px){
+    .transaction_head>h3{
+        font-size: 15px;
+    }
+
+    .foruslink{
+        width: 95%;
+        height: 250px;
+        border-radius: 5px;
+        background-color: white;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+    .fr11{
+        background-color: gold;
+        font-weight: 700;
+        font-size: 15px;
+        color: black;
+    }
+    
+    .fr11>p{
+        width: 80%;
+    }
+    
+    .fr113>p{
+        width: 80%;
+    }
+    
+    .fr112{
+        background-color: white;
+        font-weight: 700;
+        font-size: 15px;
+        color: black;
+    }
+    
+    .fr113{
+        background-color: black;
+        border: 1px solid white;
+        color: white;
+        font-weight: 800;
+        font-size:15px;
+    }
+    .forusbod{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    
+    .bottomlnk>p{
+        font-size: 9px;
+    }
+    .bottomlnk{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottomlnk2>p{
+        font-size: 9px;
+    }
+    .bottomlnk2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cd{
+        width: 95%;
+    }
+    .dashbod{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: .5em;
+        padding-top: 23em;
+        padding-bottom: 4em;
+    }
+
+    .trnslp{
+        height: 250px;
+    }
+
+    .transaction_head>h3{
+        font-size: 12px;
+    }
+    .viewall>p{
+        font-size: 12px;
+    }
+
+    .babox{
+        background-image: url('https://img.freepik.com/premium-vector/finance-business-background-bar-chart-candlestick-chart-show-stock-market-trading-price_120819-1855.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        display: flex;
+        height: 170px;
+        color: white;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+
+    .babox1>small{
+        font-size: 12px;
+    }
+
+    .box1>small{
+        font-size: 12px;
+    }
+    
+    .ballbox{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .dbbox{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+        margin-bottom: 14em;
+    }
+
+    .dbhd{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .acbod2{
+        width: 100%;
+        background-color: white;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: scroll;
+    }
+
+    .acbod2::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .acbod2>p{
+        width: 100%;
+        color: grey;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    .acbod>p{
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    .acbod{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.267);
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: scroll;
+    }
+
+    .acbod::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .bottomlnk{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        color: grey;
+        text-decoration: none;
+    }
+
+    .minbox{
+        color: white;
+        padding: 10px;
+        width: 70%;
+    }
+
+    .dbbox{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+        box-shadow: none;
+        border-radius: 0;
+    }
+}

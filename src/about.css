@@ -1,0 +1,294 @@
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.abtvideo{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.abt_box{
+    color: cadetblue;
+}
+
+.abt_banner{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    border-bottom-left-radius: 300px;
+}
+
+.abt_banner>img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    margin-bottom: 4em;
+    mask-image: linear-gradient(
+        to bottom,
+        rgb(0,0,0,1),
+        rgb(0,0,0,1),
+        rgb(0,0,0,1),
+        rgb(0,0,0,1),
+        rgb(0,0,0,1),
+        rgb(0,0,0,1),
+        rgb(0,0,0,1),
+        rgb(0,0,0,1)
+    );
+}
+
+.lns1{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    margin-bottom: 4em;
+}
+
+.lns{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lns>h1{
+    font-size: 50px;
+    z-index: 100;
+    color: white;
+}
+
+.ln{
+    text-decoration: none;
+    color: navy;
+    font-weight: 800;
+    z-index: 100;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lns>p{
+    color: grey;
+    font-weight: 800 ;
+    margin-left: 5px;
+    font-size: 20px;
+    z-index: 100;
+    color: white;
+}
+
+.abt_writes>h1{
+    color: navy;
+}
+
+.abt_writes>p{
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 3em;
+    width: 100%;
+}
+
+.line{
+    width: 3em;
+    height: .5em;
+    background-color: navy;
+    border-radius: 999px;
+}
+
+.mid_abt{
+    display:flex;
+    align-items: center;
+    margin-top: 8em;
+    width: 100%;
+}
+
+.sbt_imgs{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.sbt_imgs>img{
+    width: 270px;
+    border: 2px solid white;
+}
+
+.abt_wrtite{
+    width: 50%;
+    margin-top: 4em;
+}
+
+.abt_box{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.abt_box>div{
+    margin: 5px;
+    display: flex;
+    width: fit-content;
+    height: 120px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+    justify-content: center;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 2px 4px 14px -3px grey;
+}
+
+.fst_bod1{
+    width: 100%;
+    display: flex;
+    margin-top: 8em;
+}
+
+.mov{
+    margin-top: 8em;
+}
+
+.board{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.board>h1{
+    width: 60%;
+    text-align: center;
+    font-size: 35px;
+}
+
+.board_head{
+    width: 60%;
+    border: 2px solid purple;
+    padding: 10px;
+    display: flex;
+    border-radius: 999px;
+    align-items: center;
+    margin-top: 2em;
+    justify-content: space-between;
+}
+
+.board_head>p{
+    padding: 10px;
+    border: 2px solid purple;
+    border-radius: 999px;
+    color: purple;
+}
+
+.images{
+    width: 100%;
+    max-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.brd{
+    width: 210px;
+}
+
+.brd>img{
+    height: 8em;
+    width: 8em;
+    background-color: ghostwhite;
+    border-radius: 50%;
+}
+
+
+.abtn{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+@media only screen and (max-width: 700px){
+    .abtvideo{
+        width: 100%;
+        height: 60vh;
+        object-fit: contain;
+        display: none;
+    }
+    .abtn{
+        width: 100%;
+        height: 70vh;
+        display: block;
+    }
+    .board>h1{
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .board>h3{
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .board>p{
+        width: 100%;
+    }
+
+    .board_head{
+        width: 100%;
+        border: 2px solid purple;
+        padding: 10px;
+        display: flex;
+        border-radius: 999px;
+        align-items: center;
+        margin-top: 2em;
+        justify-content: space-between;
+    }
+    
+    .board_head>p{
+        padding: 5px;
+        border: 2px solid purple;
+        border-radius: 999px;
+        font-size: 10px;
+    }
+
+    .images{
+        width: 100%;
+        max-width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2em;
+        justify-content: center;
+    }
+    
+    .brd{
+        width: fit-content;
+        margin: 10px;
+    }
+    
+    .brd>img{
+        height: 8em;
+        width: 8em;
+        background-color: ghostwhite;
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Apple",
+        "img" : "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/appleid/gift-cards-apple.png"
+    },
+    {
+        "name": "Applebees",
+        "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVDRoxRzOCufKdTQuKHoCCAzIsHPq0jyQ0IQ&usqp=CAU"
+    },
+    {
+        "name": "Ardene",
+        "img" : "https://www.storefrontdirect.com/pub/media/catalog/product/cache/8c0cd180e440eae853fa2176b62a6ddf/a/r/ardene_nodenom_can_dig_cr80_100918_1500x1500.jpg"
+    },
+    {
+        "name": "Argos",
+        "img": "https://files.prezzee.uk/media/sku-theme-designs/argos-1120-27a57426-0e80-4132-9426-5ef033202afb/argos-1120.jpg"
+    },
+    {
+        "name":"Asos",
+        "img": "https://images.gyft.com/merchants/i-1689705836619_425_hd.png"
+    },
+    {
+        "name":"Banana Republic",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8QstsB8VDBMiJ1qo2w02N6cqVYvWpYMPwYQ&usqp=CAU"
+    },
+    {
+        "name" : "Best Buy",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0cF-utt79cwCqJoyhqSIMnk5yUK4cIB7-UAuhFOO6gSDSMfw1TSCwiqspdG0EN1r_6Ks&usqp=CAU"
+    },
+    {
+        "name":"Bier Markt",
+        "img": "https://assets.cardly.net/production/gift-cards/d/c/b/dcb40f2d-a594-a57f-4e1b-89bf4fd20f2c/card-image/bier-markt-gift-card-277f3e16994bb3ad8304a9d7b5a63a13.jpg"
+    },
+    {
+        "name":"Blizzard Balance",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4u-D_FygIhsboYQMRLAJUmkU2Vu5aJLLwQg&usqp=CAU"
+    },
+    {
+        "name" :"BNatural MedSpa",
+        "img": "https://img.cryptorefills.com/logos_v2/bnatural-medspa.webp"
+    },
+    {
+        "name" : "Burger King",
+        "img": "https://cdn-products.eneba.com/products/Burger%20King-1682607873.svg"
+    },
+    {
+        "name" : "Caribou Coffee",
+        "img": "https://m.media-amazon.com/images/I/3185f7JTzkL.jpg"
+    },
+    {
+        "name":"Carrefour",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRamxjFr-nu52_nnNaXAY_u4PrOWmMhSVA783axiVsumofhF_tammH0l_cBDONAQduKIkM&usqp=CAU"
+    },
+    {
+        "name" : "Clarks",
+        "img": "https://api.asdagiftcards.com/storage/images/cards/designs/yTchaXju3YLVlyJUeg4tFvDp1Pp3YcgZTZOOLNxx.jpeg"
+    },
+    {
+        "name" : "Curys",
+        "img": "https://m.media-amazon.com/images/I/31myB0YArAL.jpg"
+    },
+    {
+        "name" : "Crate & Barrel",
+        "img": "https://redeem.permission.io/wp-content/uploads/2022/08/Gift-card-logos-2-23.png"
+    },
+    {
+        "name" : "Conquer Online",
+        "img": "https://shopon.pk/images/thumbnails/550/450/detailed/160/QmPKKFyQCqjyyhpLpZiueCBSBjNn4rN5Lh3NkwJ1NRfWQk_0pnc-ys.jpg"
+    },
+    {
+        "name" : "Chipotle",
+        "img": "https://images.gyft.com/merchants/i-137-1348411829143-6_hd.png"
+    },
+    {
+        "name" : "Buffalo Wild Wings",
+        "img": "https://www.bitrefill.com/content/cn/v1558983993/buffalowildwings-icon.svg"
+    }
+]

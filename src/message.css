@@ -1,0 +1,96 @@
+.mssg{
+    display: flex;
+}
+
+.mssg1{
+    margin-right: auto;
+    display: flex;
+    order: 0;
+}
+
+.mssg1>.message{
+    margin-left: auto;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0;
+    background-color: cadetblue;
+}
+
+.message{
+    max-width: 210px;
+    width:fit-content;
+    padding: 15px;
+    background-color: #3e3c61;
+    margin: 5px;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    word-wrap: break-word;
+}
+
+.messageimg2{
+    max-width: 210px;
+    width:fit-content;
+    padding: 5px;
+    background-color: #3e3c61;
+    margin: 5px;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    word-wrap: break-word;
+}
+
+.messageimg2>img{
+    width: 100%;
+}
+
+.messageimg{
+    max-width: 210px;
+    width:fit-content;
+    padding: 5px;
+    margin-left: auto;
+    background-color: cadetblue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0;
+    color: white;
+    position: relative;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.messageimg>img{
+    width: 100%;
+}
+
+.message>p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message>small{
+    font-size: 8px;
+    position: absolute;
+    bottom: 0;
+    right: 0.5em;
+}
+
+.messageimg>small{
+    font-size: 8px;
+    position: absolute;
+    bottom: 0;
+    right: 0.5em;
+}
+
+.messageimg2>small{
+    font-size: 8px;
+    position: absolute;
+    bottom: 0;
+    right: 0.5em;
+}

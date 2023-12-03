@@ -1,0 +1,66 @@
+.notver{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url('https://golomtbank.com/wp-content/uploads/2020/05/digital-bank-title-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.infomationss{
+    width: 50%;
+}
+
+.anime{
+    width: 50%;
+}
+
+.infomationss>h3{
+    width: 70%;
+}
+
+.infomationss>p{
+    color: purple;
+    font-weight: 700;
+}
+
+.infomationss>small{
+    font-weight: 600;
+    width: 70%;
+    color: red;
+}
+
+.infomationss>button{
+    width: 210px;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+
+
+
+@media only screen and (max-width: 800px){
+    .notver{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .infomationss{
+        width: 95%;
+    }
+    
+    .anime{
+        width: 95%;
+        height: 350px;
+    }
+
+    .infomationss>h3{
+        width: 90%;
+    }
+}

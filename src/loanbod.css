@@ -1,0 +1,90 @@
+.loanbod{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4em;
+}
+
+.laon1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.loanb{
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.loanb>input{
+    padding: 10px;
+    font-size: 15px;
+    max-zoom: 1;
+    outline-width: 0;
+}
+
+.loan2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.loan_check{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.loanss{
+    margin: 20px;
+}
+
+.loanc{
+    display: flex;
+    align-items: center;
+}
+
+.loanc>input{
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 15px;
+    max-zoom: 1;
+    outline-width: 0;
+}
+
+.loanbtm{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loanbtms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.loanbtm1{
+    margin: 10PX;
+}
+
+.loanbtm1>input{
+    font-size: 15px;
+    padding: 10px;
+    max-zoom: 1;
+    outline-width: 0;
+}

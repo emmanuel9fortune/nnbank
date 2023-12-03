@@ -1,0 +1,146 @@
+.aff{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aff_head{
+    width: 100%;
+    height: 400px;
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -6em;
+    border-bottom: 2px solid purple;
+}
+
+.aff_head>h1{
+    margin-top: 6em;
+}
+
+.affbod{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.affbod_mid{
+    width: 10em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.affbod>img{
+    width: 30%;
+    max-width: 12em;
+}
+
+.af_ball{
+    width: 30%;
+    height: 400px;
+    box-shadow: 2px 4px 14px -3px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+
+.rot{
+    width: 180px ;
+    transform: rotate(45deg);
+}
+
+.ball_box{
+    width: 80%;
+    max-width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: ghostwhite;
+    box-shadow: 2px 4px 14px -3px grey;
+    border-radius: 20px;
+}
+
+.ball_box>p{
+    width: 100%;
+    text-align: center;
+}
+
+.ball_box>div{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.ball_box>div>input{
+    width: 80%;
+    border: none;
+    outline-width: 0;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px){
+    .affbod_mid{
+        width: 6em;
+        height: 6em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: purple;
+        border-radius: 50%;
+    }
+    .aff_head>h1{
+        margin-top: 4em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .af_ball{
+        width: 16em;
+        height: 15em;
+        box-shadow: 2px 4px 14px -3px grey;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin-top: 8em
+    }
+
+    .ball_box>p{
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+}

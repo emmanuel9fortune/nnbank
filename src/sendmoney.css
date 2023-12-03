@@ -1,0 +1,257 @@
+.send_funds{
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.send_funds{
+    width: 80%;
+    padding-left: 1em;
+}
+
+.send_funds>button{
+    width: 90%;
+    padding: 10px;
+    margin-top: 1em;
+    background-color: #3e3c61;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.select_acc{
+    width: 90%;
+    padding: 10px;
+}
+
+.select_acc>option{
+    padding: 10px;
+}
+
+.send_input{
+    margin-top: 1em;
+}
+
+.send_input>input{
+    width: 90%;
+    padding: 10px;
+    font-size: 15px;
+    max-zoom: 1;
+    border: 1px solid #3e3c61;
+    border-radius: 5px;
+    outline-width: 0 ;
+}
+
+.user_pin{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    background-color: rgba(248, 248, 255, 0.527);
+}
+
+.trsbtn{
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+
+.trsbtn>button{
+    text-decoration: none;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1em;
+    background-color: #3e3c61;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.pin{
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 2px 4px 14px -3px grey;
+}
+
+.pin2{
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 2px 4px 14px -3px grey;
+}
+
+.pin3{
+    width: 50%;
+    z-index: 1000;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px 4px 14px -3px grey;
+    padding-top: 4em;
+    background-image: url('https://www.hdwallpapers.in/download/geometric_squres_shapes_pattern_white_background_hd_white_background-HD.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.user_check{
+    display: flex;
+    margin: 1em;
+    font-size: 12px;
+    align-items: center;
+}
+
+.user_check>p{
+    margin-left: 10px;
+}
+
+.pin3>h3{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 25px;
+}
+
+.pin>button{
+    width: 70%;
+    padding: 10px;
+    margin-top: 1em;
+    background-color: #3e3c61;
+    color: white;
+    border: none;
+}
+
+.pin2>button{
+    width: 70%;
+    padding: 10px;
+    margin-top: 1em;
+    background-color: #3e3c61;
+    color: white;
+    border: none;
+}
+
+.pin3>button{
+    width: 70%;
+    padding: 10px;
+    margin-top: 4em;
+    background-color: #3e3c61;
+    color: white;
+    border: none;
+}
+
+.pin>h2{
+    width: 100%;
+    text-align: center;
+}
+
+.pin2>h2{
+    width: 100%;
+    text-align: center;
+}
+
+.ad1{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+
+.ad1>img{
+    width: 4em;
+    margin: 10px;
+}
+
+.lnc{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 10px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 999px;
+}
+
+.banknames{
+    width: 90%;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.banknames>p{
+    padding: 10px;
+    font-size:12px;
+    border-bottom:1px solid grey;
+}
+
+
+
+@media only screen and (max-width: 900px){
+    .pin2{
+        width: 100%;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        box-shadow: 2px 4px 14px -3px grey;
+    }
+    .pin{
+        width: 90%;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        box-shadow: 2px 4px 14px -3px grey;
+    }
+    .pin2{
+        width: 80%;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        box-shadow: 2px 4px 14px -3px grey;
+    }
+    .pin3{
+        width: 100%;
+        z-index: 1000;
+        height: 80vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        box-shadow: 2px 4px 14px -3px grey;
+        padding-top: 4em;
+    }
+
+    .send_funds{
+        width: 95%;
+    }
+}

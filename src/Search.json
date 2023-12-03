@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Request Loan",
+        "link": "/applyloan"
+    },
+    {
+        "name": "Dashboard",
+        "link": "/"
+    },
+    {
+        "name": "Request Card",
+        "link": "/cards"
+    },
+    {
+        "name": "Transfer",
+        "link": "/transfer"
+    },
+    {
+        "name": "Deposit",
+        "link": "/deposit"
+    },
+    {
+        "name": "Help",
+        "link": "/help"
+    },
+    {
+        "name": "Profile",
+        "link": "/profile"
+    },
+    {
+        "name": "Pay bills",
+        "link": "/paybills"
+    },
+    {
+        "name": "Transactions",
+        "link": "/transactions"
+    },
+    {
+        "name": "Send Money",
+        "link": "/sendmoney"
+    },
+    {
+        "name": "Notifications",
+        "link": "/notification"
+    }
+]
